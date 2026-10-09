@@ -86,7 +86,7 @@ SELECT
       pr.product_key,
       cu.customer_key,
       sls_order_dt AS order_date,
-      sls_ship_date AS shipping_date,
+      sls_ship_dt AS shipping_date,
       sls_due_dt AS due_date,
       sls_sales,
       sls_quantity,
